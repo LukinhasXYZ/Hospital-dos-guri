@@ -1,0 +1,82 @@
+header{
+    background-color: #2a6f97;
+    padding: 20px 0;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo a{
+    font-size: 2rem;
+}
+
+.header-searchbar input{
+    width: 210px;
+    padding: 10px 5px;
+    border-radius: 24px;
+    border: none;
+    transition: 500ms;
+}
+
+.header-searchbar input:focus{
+    outline: none;
+    width: 300px;
+    background-color: #c3dbe7;
+}
+
+.username::before{
+    content: 'Lucas Rodrigo Lieseski'; /*nome do usuario*/
+}
+
+@media (max-width: 600px) {
+    .username{
+    display: none;
+    }
+}
+
+.header-userinfo>span{
+    background-color: #c3dbe7;
+    padding: 15px 5px 10px 5px;
+    border-radius: 8px;
+}
+
+.header-userinfo>span>a::before{
+    content: "👨‍💼";
+    font-size: 30px;
+}
+
+.header-userinfo-focus{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    background-color: #c3dbe7;
+    padding: 10px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    right: 0;
+    transition: 700ms;
+}
+
+.header-userinfo{
+    position: relative;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+}
+
+.header-userinfo-focus a{
+    transition: 300ms;
+}
+
+.header-userinfo-focus a:hover{
+    color: black;
+    transform: scale(1.1);
+}
+
+.header-userinfo:hover .header-userinfo-focus{
+    opacity: 1;
+}

@@ -1,0 +1,35 @@
+.main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main-content-homemenu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.homemenu-icon{
+    background-color: #A2C1C8;
+    border: solid 3px #5F7F9D;
+    border-radius: 32px;
+    padding: 100px 170px;
+    transition: 300ms;
+}
+
+.homemenu-icon:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 700px) {
+    .main-content-homemenu{
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .homemenu-icon{
+        padding: 80px 130px;
+    }
+}

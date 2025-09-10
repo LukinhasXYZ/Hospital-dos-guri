@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    background-color: var(--background-color);
+    font-family: 'rubik', Arial, Helvetica, sans-serif;
+    color: var(--principal-text);
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+:root{
+    --background-color: #f4f7f9;
+    --principal-text: #1a1a1a;
+}
+
+@media (min-width: 900px){
+    .container{
+        margin: 0 100px;
+    }
+}
+
+@media (min-width: 1300px){
+    .container{
+        margin: 0 250px;
+    }
+}
+
+@media (min-width: 1700px){
+    .container{
+        margin: 0 400px;
+    }
+}

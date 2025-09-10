@@ -1,0 +1,21 @@
+4 - Cadastro de itens (Nome, codigo, descrição, quantidade em estoque, datas de validade e fabricação)+
+Modificação e exclusão de itens ja inseridos
+Quantidade de itens disponiveis
+5 - Entrada e saida de produto+
+Localização do produto
+3 - Pesquisa de produtos+
+Histórico de movimentação de itens
+
+1 - Cadastro de funcionário
+2 - Emissão de relatorios
+
+6 - Histórico de consultas
+
+
+
+
+paleta de cores:
+
+Azul escuro: #5F7F9D
+Azul fraco: #A2C1C8
+Branco azulado: #E8EDEC
