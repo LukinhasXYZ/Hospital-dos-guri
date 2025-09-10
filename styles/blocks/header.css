@@ -1,15 +1,21 @@
 header{
     background-color: #2a6f97;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .header-content{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .header-logo a{
-    font-size: 2rem;
+    overflow: hidden;
+}
+
+.header-logo a img{
+    width: 100px;
+    object-fit: contain;
 }
 
 .header-searchbar input{

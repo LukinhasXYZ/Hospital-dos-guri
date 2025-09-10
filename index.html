@@ -11,7 +11,7 @@
             <div class="header-content">
                 <div class="header-logo">
                     <a href="./home.html"> <!-- Alterar a cada pagina-->
-                        Logo
+                        <img src="./src/hospital-logo.png" alt="">
                     </a>
                 </div>
                 <nav class="header-searchbar">
@@ -36,12 +36,24 @@
         <div class="container">
             <div class="main-content">
                 <nav class="main-content-homemenu">
-                    <a class="homemenu-icon" href="#">?</a>
-                    <a class="homemenu-icon" href="#">?</a>
-                    <a class="homemenu-icon" href="#">?</a>
-                    <a class="homemenu-icon" href="#">?</a>
-                    <a class="homemenu-icon" href="#">?</a>
-                    <a class="homemenu-icon" href="#">?</a>
+                    <a class="homemenu-icon" href="#">
+                        <img src="./src/cadastro-itens.png" alt="cadastro de itens">
+                    </a>
+                    <a class="homemenu-icon" href="#">
+                        <img src="./src/pesquisa-produto.png" alt="Pesquisa de produto">
+                    </a>
+                    <a class="homemenu-icon" href="#">
+                        <img src="./src/entrada-saida-produtos.png" alt="Entrada e saida de produto">
+                    </a>
+                    <a class="homemenu-icon" href="#">
+                        <img src="./src/cadastro-funcionario.png" alt="">
+                    </a>
+                    <a class="homemenu-icon" href="#">
+                        <img src="./src/emissao-relatorio.png" alt="Emissão de relatorios">
+                    </a>
+                    <a class="homemenu-icon" href="#">
+                        <img src="./src/historico-consulta.png" alt="Histórico de consultas">
+                    </a>
                 </nav>
             </div>
         </div>
@@ -50,7 +62,20 @@
 
 
 
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+    <script>
+    // Quando a página carregar, esconde o loader
+        window.addEventListener("load", function() {
+            document.getElementById("loader").style.display = "none";
+    });
+    </script>
+
     <!-- styles -->
+
+    <!-- loader -->
+    <link rel="stylesheet" href="./styles/blocks/loader.css">
 
     <!-- base -->
      <link rel="stylesheet" href="./styles/base/base.css">

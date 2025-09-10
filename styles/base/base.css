@@ -17,6 +17,7 @@ a{
     --principal-text: #1a1a1a;
 }
 
+
 @media (min-width: 900px){
     .container{
         margin: 0 100px;
